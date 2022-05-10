@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?><toc xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns="http://www.oxygenxml.com/ns/webhelp/toc">
+   <title><span xmlns="http://www.w3.org/1999/xhtml" class="title">IOP Publishing Content Documentation</span></title>
+   <topic href="Books/books.html" data-id="books" wh-toc-id="books-d66e11">
+      <title>Books</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Documentation for the IOP Publishing specific implementation of BITS 2.0 for book content</p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="books"></resourceid>
+         <navtitle class="- topic/navtitle ">Books</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Books</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc ">Documentation for the IOP Publishing specific implementation of BITS 2.0 for book content</shortdesc>
+      </topicmeta>
+      <topic href="Books/root_element.html" data-id="root_element" wh-toc-id="root_element-d66e22">
+         <title>Root element</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">The root element for a book is a <code class="keyword markupname xmlelement">&lt;book&gt;</code>         element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="root_element"></resourceid>
+            <navtitle class="- topic/navtitle ">Root element</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Root element</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">The root element for a book is a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book</xmlelement>         element.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Books/book_meta.html" data-id="book_meta" wh-toc-id="book_meta-d66e36">
+         <title>Book Meta</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"><code class="keyword markupname xmlelement">&lt;book-meta &gt;</code>is a mandatory element for all books as a         container for the book level metadata.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_meta"></resourceid>
+            <navtitle class="- topic/navtitle ">Book Meta</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Book Meta</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-meta </xmlelement>is a mandatory element for all books as a         container for the book level metadata.
+            </shortdesc>
+         </topicmeta>
+         <topic href="Books/book_id.html" data-id="book_id" wh-toc-id="book_id-d66e49">
+            <title>Book ID</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All books must contain a <code class="keyword markupname xmlelement">&lt;book-id&gt;</code> element containing the book         level DOI
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_id"></resourceid>
+               <navtitle class="- topic/navtitle ">Book ID</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Book ID</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">All books must contain a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-id</xmlelement> element containing the book         level DOI
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/book_title.html" data-id="book_title" wh-toc-id="book_title-d66e63">
+            <title>Book Title</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the book title in a <code class="keyword markupname xmlelement">&lt;book-title&gt;</code> element inside a             <code class="keyword markupname xmlelement">&lt;book-title-group&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_title"></resourceid>
+               <navtitle class="- topic/navtitle ">Book Title</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Book Title</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the book title in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-title</xmlelement> element inside a             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-title-group</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/subject_group.html" data-id="subject_group" wh-toc-id="subject_group-d66e80">
+            <title>Subject Group</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All books must contain a <code class="keyword markupname xmlelement">&lt;subj-group&gt;</code> element containing         subject categorisation information.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="subject_group"></resourceid>
+               <navtitle class="- topic/navtitle ">Subject Group</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Subject Group</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">All books must contain a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">subj-group</xmlelement> element containing         subject categorisation information.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/contributors.html" data-id="contributors" wh-toc-id="contributors-d66e94">
+            <title>Contributors</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Contributor information for a book is captured in             <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code> elements.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="contributors"></resourceid>
+               <navtitle class="- topic/navtitle ">Contributors</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Contributors</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Contributor information for a book is captured in             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement> elements.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/authors_and_editors.html" data-id="authors_and_editors" wh-toc-id="authors_and_editors-d66e108">
+               <title>Authors and Editors</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture each author or editor contributor in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code>         element child of <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="authors_and_editors"></resourceid>
+                  <navtitle class="- topic/navtitle ">Authors and Editors</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Authors and Editors</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture each author or editor contributor in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement>         element child of 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/collaborations.html" data-id="collaborations" wh-toc-id="collaborations-d66e124">
+               <title>Collaborations</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture a collaboration group in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code> element child of             <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="collaborations"></resourceid>
+                  <navtitle class="- topic/navtitle ">Collaborations</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Collaborations</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture a collaboration group in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement> element child of             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/contrib_crossreferences.html" data-id="contrib_crossreferences" wh-toc-id="contrib_crossreferences-d66e140">
+               <title>Contrib Xrefs</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                     linked using an <code class="keyword markupname xmlelement">&lt;xref&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="contrib_crossreferences"></resourceid>
+                  <navtitle class="- topic/navtitle ">Contrib Xrefs</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Contrib Xrefs</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                     linked using an 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">xref</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/affiliations.html" data-id="affiliations" wh-toc-id="affiliations-d66e154">
+               <title>Affiliations</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture affiliations in <code class="keyword markupname xmlelement">&lt;aff&gt;</code> elements.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="affiliations"></resourceid>
+                  <navtitle class="- topic/navtitle ">Affiliations</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Affiliations</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture affiliations in 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">aff</xmlelement> elements.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/biographies.html" data-id="biographies" wh-toc-id="biographies-d66e168">
+               <title>Biographies</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture contributor biographies in a <code class="keyword markupname xmlelement">&lt;bio&gt;</code> element
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="biographies"></resourceid>
+                  <navtitle class="- topic/navtitle ">Biographies</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Biographies</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture contributor biographies in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">bio</xmlelement> element
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Books/publication_date.html" data-id="publication_date" wh-toc-id="publication_date-d66e182">
+            <title>Publication Date</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">A Publication date for the book must be captured in a             <code class="keyword markupname xmlelement">&lt;pub-date&gt;</code> element
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="publication_date"></resourceid>
+               <navtitle class="- topic/navtitle ">Publication Date</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Publication Date</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">A Publication date for the book must be captured in a             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">pub-date</xmlelement> element
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/issn.html" data-id="issn" wh-toc-id="issn-d66e196">
+            <title>ISSN</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture ISSN information in a <code class="keyword markupname xmlelement">&lt;issn&gt;</code> element
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="issn"></resourceid>
+               <navtitle class="- topic/navtitle ">ISSN</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">ISSN</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture ISSN information in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">issn</xmlelement> element
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/isbn.html" data-id="isbn" wh-toc-id="isbn-d66e210">
+            <title>ISBN</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture ISBN information in a <code class="keyword markupname xmlelement">&lt;ISBN&gt;</code> element
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="isbn"></resourceid>
+               <navtitle class="- topic/navtitle ">ISBN</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">ISBN</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture ISBN information in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">ISBN</xmlelement> element
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/publisher.html" data-id="publisher" wh-toc-id="publisher-d66e224">
+            <title>Publisher</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Publisher information in a <code class="keyword markupname xmlelement">&lt;publisher&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="publisher"></resourceid>
+               <navtitle class="- topic/navtitle ">Publisher</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Publisher</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture Publisher information in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">publisher</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/cover_files.html" data-id="cover_files" wh-toc-id="cover_files-d66e238">
+            <title>Cover Files</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture cover file images in <code class="keyword markupname xmlelement">&lt;supplementary-material&gt;</code>         elements
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="cover_files"></resourceid>
+               <navtitle class="- topic/navtitle ">Cover Files</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Cover Files</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture cover file images in 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">supplementary-material</xmlelement>         elements
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/supplementary_data.html" data-id="supplementary_data" wh-toc-id="supplementary_data-d66e252">
+            <title>Supplementary Data</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="supplementary_data"></resourceid>
+               <navtitle class="- topic/navtitle ">Supplementary Data</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Supplementary Data</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc "></shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/copyright_and_licenses.html" data-id="copyright_and_licenses" wh-toc-id="copyright_and_licenses-d66e263">
+            <title>Copyright and Licenses</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Copyright and License information inside a             <code class="keyword markupname xmlelement">&lt;permissions&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="copyright_and_licenses"></resourceid>
+               <navtitle class="- topic/navtitle ">Copyright and Licenses</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Copyright and Licenses</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture Copyright and License information inside a             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">permissions</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/copyright.html" data-id="copyright" wh-toc-id="copyright-d66e277">
+               <title>Copyright</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All books must contain  <code class="keyword markupname xmlelement">&lt;copyright-statement &gt;</code>,             <code class="keyword markupname xmlelement">&lt;copyright-year&gt;</code> and <code class="keyword markupname xmlelement">&lt;copyright-holder&gt;</code>         elements.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="copyright"></resourceid>
+                  <navtitle class="- topic/navtitle ">Copyright</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Copyright</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">All books must contain  
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">copyright-statement </xmlelement>,             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">copyright-year</xmlelement> and 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">copyright-holder</xmlelement>         elements.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/licenses.html" data-id="licenses" wh-toc-id="licenses-d66e297">
+               <title>Licenses</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All books must contain a <code class="keyword markupname xmlelement">&lt;license&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="licenses"></resourceid>
+                  <navtitle class="- topic/navtitle ">Licenses</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Licenses</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">All books must contain a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">license</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Books/self_uris.html" data-id="self_uris" wh-toc-id="self_uris-d66e311">
+            <title>Self-uris</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the filenames of the PDF, EPUB and MOBI representations of the book in             <code class="keyword markupname xmlelement">&lt;self-uri&gt;</code> elements. 
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="self_uris"></resourceid>
+               <navtitle class="- topic/navtitle ">Self-uris</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Self-uris</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the filenames of the PDF, EPUB and MOBI representations of the book in             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">self-uri</xmlelement> elements. 
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/abstract.html" data-id="abstract" wh-toc-id="abstract-d66e325">
+            <title>Abstract</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Abstracts in a <code class="keyword markupname xmlelement">&lt;abstract&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="abstract"></resourceid>
+               <navtitle class="- topic/navtitle ">Abstract</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Abstract</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture Abstracts in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">abstract</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/counts.html" data-id="counts" wh-toc-id="counts-d66e339">
+            <title>Counts</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the page count of the book using a  <code class="keyword markupname xmlelement">&lt;book-page-count &gt;</code>         element as a child of  <code class="keyword markupname xmlelement">&lt;counts&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="counts"></resourceid>
+               <navtitle class="- topic/navtitle ">Counts</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Counts</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the page count of the book using a  
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-page-count </xmlelement>         element as a child of  
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">counts</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/custom_meta.html" data-id="custom_meta" wh-toc-id="custom_meta-d66e356">
+            <title>Custom-Meta</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Custom Metadata in a<code class="keyword markupname xmlelement">&lt; custom-meta-group&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="custom_meta"></resourceid>
+               <navtitle class="- topic/navtitle ">Custom-Meta</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Custom-Meta</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture Custom Metadata in a
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement "> custom-meta-group</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/version.html" data-id="version" wh-toc-id="version-d66e370">
+               <title>Version</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture version information in a <code class="keyword markupname xmlelement">&lt;custom-meta&gt;</code>         element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="version"></resourceid>
+                  <navtitle class="- topic/navtitle ">Version</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Version</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture version information in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">custom-meta</xmlelement>         element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/authorisation_year.html" data-id="authorisation_year" wh-toc-id="authorisation_year-d66e384">
+               <title>Authorization Year</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="authorisation_year"></resourceid>
+                  <navtitle class="- topic/navtitle ">Authorization Year</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Authorization Year</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Books/notes.html" data-id="notes" wh-toc-id="notes-d66e394">
+            <title>Notes</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture notes in a <code class="keyword markupname xmlelement">&lt;notes&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="notes"></resourceid>
+               <navtitle class="- topic/navtitle ">Notes</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Notes</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture notes in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">notes</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/readership.html" data-id="readership" wh-toc-id="readership-d66e408">
+               <title>Readership</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture readership information in a <code class="keyword markupname xmlelement">&lt;notes&gt;</code> element with a             <code class="keyword markupname xmlatt">@notes-type</code> attribute of value <span class="q">“Readership”</span>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="readership"></resourceid>
+                  <navtitle class="- topic/navtitle ">Readership</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Readership</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture readership information in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">notes</xmlelement> element with a             
+                     <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">notes-type</xmlatt> attribute of value 
+                     <q class="- topic/q ">Readership</q>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/publishing_information.html" data-id="publishing_information" wh-toc-id="publishing_information-d66e428">
+               <title>Publishing Information</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Publishing Information in a <code class="keyword markupname xmlelement">&lt;notes&gt;</code> element with a             <code class="keyword markupname xmlatt">@notes-type</code> attribute of value <span class="q">“published-license”</span>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="publishing_information"></resourceid>
+                  <navtitle class="- topic/navtitle ">Publishing Information</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Publishing Information</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture Publishing Information in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">notes</xmlelement> element with a             
+                     <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">notes-type</xmlatt> attribute of value 
+                     <q class="- topic/q ">published-license</q>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/british_library_record.html" data-id="british_library_record" wh-toc-id="british_library_record-d66e448">
+               <title>British Library Record</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture The British Library catalog information in a <code class="keyword markupname xmlelement">&lt;notes&gt;</code>         element with a <code class="keyword markupname xmlatt">@notes-type</code> attribute of value         <span class="q">“brit-library”</span>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="british_library_record"></resourceid>
+                  <navtitle class="- topic/navtitle ">British Library Record</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">British Library Record</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture The British Library catalog information in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">notes</xmlelement>         element with a 
+                     <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">notes-type</xmlatt> attribute of value         
+                     <q class="- topic/q ">brit-library</q>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/book_collection.html" data-id="book_collection" wh-toc-id="book_collection-d66e468">
+               <title>Book Collection</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture The book collection information in a <code class="keyword markupname xmlelement">&lt;notes&gt;</code> element         with a <code class="keyword markupname xmlatt">@notes-type</code> attribute of value <span class="q">“collection”</span>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_collection"></resourceid>
+                  <navtitle class="- topic/navtitle ">Book Collection</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Book Collection</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture The book collection information in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">notes</xmlelement> element         with a 
+                     <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">notes-type</xmlatt> attribute of value 
+                     <q class="- topic/q ">collection</q>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+      <topic href="Books/front_matter.html" data-id="front_matter" wh-toc-id="front_matter-d66e488">
+         <title>Front Matter</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the front matter information for a book inside a             <code class="keyword markupname xmlelement">&lt;front-matter&gt;</code> element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="front_matter"></resourceid>
+            <navtitle class="- topic/navtitle ">Front Matter</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Front Matter</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the front matter information for a book inside a             
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">front-matter</xmlelement> element.
+            </shortdesc>
+         </topicmeta>
+         <topic href="Books/front_matter_part.html" data-id="front_matter_part" wh-toc-id="front_matter_part-d66e502">
+            <title>Front Matter Part</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"><code class="keyword markupname xmlelement">&lt;front-matter-part&gt;</code>is a mandatory element for all <code class="keyword markupname xmlelement">&lt;front-matter&gt;</code> as a         container for the front-matter metadata.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="front_matter_part"></resourceid>
+               <navtitle class="- topic/navtitle ">Front Matter Part</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Front Matter Part</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">front-matter-part</xmlelement>is a mandatory element for all 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">front-matter</xmlelement> as a         container for the front-matter metadata.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/front_matter_title.html" data-id="front_matter_title" wh-toc-id="front_matter_title-d66e518">
+               <title>Front Matter Title</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the title of the front matter section in a <code class="keyword markupname xmlelement">&lt;title&gt;</code>         element inside a <code class="keyword markupname xmlelement">&lt;title-group&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="front_matter_title"></resourceid>
+                  <navtitle class="- topic/navtitle ">Front Matter Title</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Front Matter Title</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the title of the front matter section in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title</xmlelement>         element inside a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title-group</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/front_matter_contributors.html" data-id="front_matter_contributors" wh-toc-id="front_matter_contributors-d66e535">
+               <title>Front Matter Contributors</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Front matter contributor information is captured in a         <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="front_matter_contributors"></resourceid>
+                  <navtitle class="- topic/navtitle ">Front Matter Contributors</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Front Matter Contributors</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Front matter contributor information is captured in a         
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+               <topic href="Books/authors_and_editors_2.html" data-id="authors_and_editors" wh-toc-id="authors_and_editors-d66e549">
+                  <title>Authors and Editors</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture each author or editor contributor in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code>         element child of <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="authors_and_editors"></resourceid>
+                     <navtitle class="- topic/navtitle ">Authors and Editors</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Authors and Editors</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture each author or editor contributor in a 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement>         element child of 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/collaborations_2.html" data-id="collaborations" wh-toc-id="collaborations-d66e565">
+                  <title>Collaborations</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture a collaboration group in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code> element child of             <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="collaborations"></resourceid>
+                     <navtitle class="- topic/navtitle ">Collaborations</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Collaborations</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture a collaboration group in a 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement> element child of             
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/contrib_crossreferences_2.html" data-id="contrib_crossreferences" wh-toc-id="contrib_crossreferences-d66e581">
+                  <title>Contrib Xrefs</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                        linked using an <code class="keyword markupname xmlelement">&lt;xref&gt;</code> element.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="contrib_crossreferences"></resourceid>
+                     <navtitle class="- topic/navtitle ">Contrib Xrefs</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Contrib Xrefs</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                        linked using an 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">xref</xmlelement> element.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/affiliations_2.html" data-id="affiliations" wh-toc-id="affiliations-d66e595">
+                  <title>Affiliations</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture affiliations in <code class="keyword markupname xmlelement">&lt;aff&gt;</code> elements.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="affiliations"></resourceid>
+                     <navtitle class="- topic/navtitle ">Affiliations</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Affiliations</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture affiliations in 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">aff</xmlelement> elements.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+            </topic>
+            <topic href="Books/page_numbers.html" data-id="page_numbers" wh-toc-id="page_numbers-d66e609">
+               <title>Page Numbers</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture first and last page numbers for a chapter in fpage and lpage elements respectively.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="page_numbers"></resourceid>
+                  <navtitle class="- topic/navtitle ">Page Numbers</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Page Numbers</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture first and last page numbers for a chapter in fpage and lpage elements respectively.</shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Books/dedication.html" data-id="dedication" wh-toc-id="dedication-d66e620">
+            <title>Dedication</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture book dedication information in a <code class="keyword markupname xmlelement">&lt;dedication&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="dedication"></resourceid>
+               <navtitle class="- topic/navtitle ">Dedication</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Dedication</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture book dedication information in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">dedication</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/preface.html" data-id="preface" wh-toc-id="preface-d66e634">
+            <title>Preface</title>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="preface"></resourceid>
+               <navtitle class="- topic/navtitle ">Preface</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Preface</linktext>
+            </topicmeta>
+         </topic>
+         <topic href="Books/acknowledgements.html" data-id="acknowledgements" wh-toc-id="acknowledgements-d66e642">
+            <title>Acknowledgements</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the book preface in a <code class="keyword markupname xmlelement">&lt;ack&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="acknowledgements"></resourceid>
+               <navtitle class="- topic/navtitle ">Acknowledgements</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Acknowledgements</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the book preface in a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">ack</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/full_biographies.html" data-id="full_biographies" wh-toc-id="full_biographies-d66e656">
+            <title>Full Biographies</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture full author biographies in <code class="keyword markupname xmlelement">&lt;bio&gt;</code> elements. 
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="full_biographies"></resourceid>
+               <navtitle class="- topic/navtitle ">Full Biographies</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Full Biographies</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture full author biographies in 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">bio</xmlelement> elements. 
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Books/glossary.html" data-id="glossary" wh-toc-id="glossary-d66e670">
+            <title>Glossary</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture glossary information inside a <code class="keyword markupname xmlelement">&lt;glossary&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="glossary"></resourceid>
+               <navtitle class="- topic/navtitle ">Glossary</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Glossary</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture glossary information inside a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">glossary</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="Books/chapters.html" data-id="chapters" wh-toc-id="chapters-d66e684">
+         <title>Chapters</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All of a books chapters must be captured in seperate <code class="keyword markupname xmlelement">&lt;book-part         &gt;</code> elements within a <code class="keyword markupname xmlelement">&lt;book-body&gt;</code> element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="chapters"></resourceid>
+            <navtitle class="- topic/navtitle ">Chapters</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Chapters</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">All of a books chapters must be captured in seperate 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-part         </xmlelement> elements within a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-body</xmlelement> element.
+            </shortdesc>
+         </topicmeta>
+         <topic href="Books/book_part_meta.html" data-id="book_part_meta" wh-toc-id="book_part_meta-d66e701">
+            <title>Book-Part Meta</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"><code class="keyword markupname xmlelement">&lt;book-part-meta&gt;</code>is a mandatory element for all chapters as a         container for the chapter level metadata.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_part_meta"></resourceid>
+               <navtitle class="- topic/navtitle ">Book-Part Meta</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Book-Part Meta</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-part-meta</xmlelement>is a mandatory element for all chapters as a         container for the chapter level metadata.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/book_part_id.html" data-id="book_part_id" wh-toc-id="book_part_id-d66e714">
+               <title>Book Part ID</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">All chapters must contain a <code class="keyword markupname xmlelement">&lt;book-part-id&gt;</code> element containing         the chapter level doi.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="book_part_id"></resourceid>
+                  <navtitle class="- topic/navtitle ">Book Part ID</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Book Part ID</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">All chapters must contain a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-part-id</xmlelement> element containing         the chapter level doi.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/chapter_title.html" data-id="chapter_title" wh-toc-id="chapter_title-d66e728">
+               <title>Chapter Title</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the chapter title in a <code class="keyword markupname xmlelement">&lt;title&gt;</code> element inside a             <code class="keyword markupname xmlelement">&lt;title-group&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="chapter_title"></resourceid>
+                  <navtitle class="- topic/navtitle ">Chapter Title</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Chapter Title</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the chapter title in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title</xmlelement> element inside a             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title-group</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/chapter_contributors.html" data-id="chapter_contributors" wh-toc-id="chapter_contributors-d66e745">
+               <title>Chapter Contributors</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Chapter level contributor information is captured in a             <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="chapter_contributors"></resourceid>
+                  <navtitle class="- topic/navtitle ">Chapter Contributors</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Chapter Contributors</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Chapter level contributor information is captured in a             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+               <topic href="Books/authors_and_editors_3.html" data-id="authors_and_editors" wh-toc-id="authors_and_editors-d66e759">
+                  <title>Authors and Editors</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture each author or editor contributor in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code>         element child of <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="authors_and_editors"></resourceid>
+                     <navtitle class="- topic/navtitle ">Authors and Editors</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Authors and Editors</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture each author or editor contributor in a 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement>         element child of 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/collaborations_3.html" data-id="collaborations" wh-toc-id="collaborations-d66e775">
+                  <title>Collaborations</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture a collaboration group in a <code class="keyword markupname xmlelement">&lt;contrib&gt;</code> element child of             <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code></p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="collaborations"></resourceid>
+                     <navtitle class="- topic/navtitle ">Collaborations</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Collaborations</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture a collaboration group in a 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement> element child of             
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement>
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/contrib_crossreferences_3.html" data-id="contrib_crossreferences" wh-toc-id="contrib_crossreferences-d66e791">
+                  <title>Contrib Xrefs</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                        linked using an <code class="keyword markupname xmlelement">&lt;xref&gt;</code> element.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="contrib_crossreferences"></resourceid>
+                     <navtitle class="- topic/navtitle ">Contrib Xrefs</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Contrib Xrefs</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Contributors with any associated affiliation, footnote or biography information         must have that information  explictly
+                        linked using an 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">xref</xmlelement> element.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Books/affiliations_3.html" data-id="affiliations" wh-toc-id="affiliations-d66e805">
+                  <title>Affiliations</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture affiliations in <code class="keyword markupname xmlelement">&lt;aff&gt;</code> elements.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="affiliations"></resourceid>
+                     <navtitle class="- topic/navtitle ">Affiliations</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Affiliations</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">Capture affiliations in 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">aff</xmlelement> elements.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+            </topic>
+            <topic href="Books/page_numbers_2.html" data-id="page_numbers" wh-toc-id="page_numbers-d66e819">
+               <title>Page Numbers</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture first and last page numbers for a chapter in fpage and lpage elements respectively.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="page_numbers"></resourceid>
+                  <navtitle class="- topic/navtitle ">Page Numbers</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Page Numbers</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture first and last page numbers for a chapter in fpage and lpage elements respectively.</shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/chapter_self_uris.html" data-id="chapter_self_uris" wh-toc-id="chapter_self_uris-d66e830">
+               <title>Chapter Self-uris</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the filenames of the PDF, EPUB and MOBI representations of the chapter in self-uri elements.</p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="chapter_self_uris"></resourceid>
+                  <navtitle class="- topic/navtitle ">Chapter Self-uris</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Chapter Self-uris</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the filenames of the PDF, EPUB and MOBI representations of the chapter in self-uri elements.</shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/abstract_2.html" data-id="abstract" wh-toc-id="abstract-d66e841">
+               <title>Abstract</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture Abstracts in a <code class="keyword markupname xmlelement">&lt;abstract&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="abstract"></resourceid>
+                  <navtitle class="- topic/navtitle ">Abstract</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Abstract</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture Abstracts in a 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">abstract</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Books/chapter_body.html" data-id="chapter_body" wh-toc-id="chapter_body-d66e855">
+            <title>Chapter Body</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the body content of a book chapter inside a <code class="keyword markupname xmlelement">&lt;body&gt;</code>         element as a child of the relevent <code class="keyword markupname xmlelement">&lt;book-part&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="chapter_body"></resourceid>
+               <navtitle class="- topic/navtitle ">Chapter Body</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Chapter Body</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the body content of a book chapter inside a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">body</xmlelement>         element as a child of the relevent 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">book-part</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Books/paragraphs.html" data-id="paragraphs" wh-toc-id="paragraphs-d66e872">
+               <title>Paragraphs</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="paragraphs"></resourceid>
+                  <navtitle class="- topic/navtitle ">Paragraphs</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Paragraphs</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/sections.html" data-id="sections" wh-toc-id="sections-d66e882">
+               <title>Sections</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="sections"></resourceid>
+                  <navtitle class="- topic/navtitle ">Sections</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Sections</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/figures.html" data-id="figures" wh-toc-id="figures-d66e892">
+               <title>Figures</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="figures"></resourceid>
+                  <navtitle class="- topic/navtitle ">Figures</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Figures</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/tables.html" data-id="tables" wh-toc-id="tables-d66e902">
+               <title>Tables</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="tables"></resourceid>
+                  <navtitle class="- topic/navtitle ">Tables</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Tables</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Books/xrefs.html" data-id="xrefs" wh-toc-id="xrefs-d66e912">
+               <title>Xrefs</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="xrefs"></resourceid>
+                  <navtitle class="- topic/navtitle ">Xrefs</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Xrefs</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc "></shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="Volume-meta/volume_meta.html" data-id="volume_meta_0" wh-toc-id="volume_meta_0-d66e923">
+      <title>Volume-Meta</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Documentation for the IOP Publishing volume-meta file format for providing volume         level metadata.</p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="volume_meta_0"></resourceid>
+         <navtitle class="- topic/navtitle ">Volume-Meta</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Volume-Meta</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc ">Documentation for the IOP Publishing volume-meta file format for providing volume         level metadata.</shortdesc>
+      </topicmeta>
+      <topic href="Volume-meta/root_element.html" data-id="root_element" wh-toc-id="root_element-d66e934">
+         <title>Root Element</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">The root element for a volume-meta file is a <code class="keyword markupname xmlelement">&lt;volume-meta&gt;</code>         element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="root_element"></resourceid>
+            <navtitle class="- topic/navtitle ">Root Element</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Root Element</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">The root element for a volume-meta file is a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">volume-meta</xmlelement>         element.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/primary_issn.html" data-id="primary_issn" wh-toc-id="primary_issn-d66e948">
+         <title>primary-issn</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the primary journal ISSN within         <code class="keyword markupname xmlelement">&lt;primary-issn&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="primary_issn"></resourceid>
+            <navtitle class="- topic/navtitle ">primary-issn</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">primary-issn</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the primary journal ISSN within         
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">primary-issn</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+         <topic href="Volume-meta/primary_issn_list.html" data-id="primary_issn_list" wh-toc-id="primary_issn_list-d66e962">
+            <title>Primary ISSN list</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">List of allowed <code class="keyword markupname xmlelement">&lt;primary-issn&gt;</code> elements with their respective             <code class="keyword markupname xmlatt">@pub-type</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="primary_issn_list"></resourceid>
+               <navtitle class="- topic/navtitle ">Primary ISSN list</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Primary ISSN list</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">List of allowed 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">primary-issn</xmlelement> elements with their respective             
+                  <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">pub-type</xmlatt>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="Volume-meta/volume.html" data-id="volume" wh-toc-id="volume-d66e979">
+         <title>volume</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the volume number in the <code class="keyword markupname xmlelement">&lt;volume&gt;</code> element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="volume"></resourceid>
+            <navtitle class="- topic/navtitle ">volume</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">volume</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the volume number in the 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">volume</xmlelement> element.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/publication_date.html" data-id="publication_date" wh-toc-id="publication_date-d66e993">
+         <title>publication-date</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the date the volume is published in         <code class="keyword markupname xmlelement">&lt;publication-date&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="publication_date"></resourceid>
+            <navtitle class="- topic/navtitle ">publication-date</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">publication-date</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the date the volume is published in         
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">publication-date</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/conference_volume_version_0.html" data-id="conference_volume_version_0" wh-toc-id="conference_volume_version_0-d66e1007">
+         <title>conference-volume-version</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the conference publication status in             <code class="keyword markupname xmlelement">&lt;conference-volume-version&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_volume_version_0"></resourceid>
+            <navtitle class="- topic/navtitle ">conference-volume-version</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">conference-volume-version</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the conference publication status in             
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-volume-version</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/conference_volume_pub_date.html" wh-toc-id="tocId-d66e1021">
+         <title>***</title>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid=""></resourceid>
+         </topicmeta>
+         <topic href="Volume-meta/conference_pub_date_expected.html" data-id="conference_pub_date_expected" wh-toc-id="conference_pub_date_expected-d66e1024">
+            <title>conference-pub-date-expected</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture the expected publication date of a conference with a             <code class="keyword markupname xmlatt">@iso-8601-date</code> attribute on the element             <code class="keyword markupname xmlelement">&lt;conference-pub-date-expected&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_pub_date_expected"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-pub-date-expected</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-pub-date-expected</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture the expected publication date of a conference with a             
+                  <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">iso-8601-date</xmlatt> attribute on the element             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-pub-date-expected</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_pub_date_accepted.html" data-id="conference_pub_date_accepted" wh-toc-id="conference_pub_date_accepted-d66e1041">
+            <title>conference-pub-date-received</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the date a conference was received for publication with a             <code class="keyword markupname xmlatt">@iso-8601-date</code> attribute on the element             <code class="keyword markupname xmlelement">&lt;conference-pub-date-received&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_pub_date_accepted"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-pub-date-received</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-pub-date-received</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the date a conference was received for publication with a             
+                  <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">iso-8601-date</xmlatt> attribute on the element             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-pub-date-received</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_pub_date_published.html" data-id="conference_pub_date_published" wh-toc-id="conference_pub_date_published-d66e1058">
+            <title>conference-pub-date-published</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the final publication date of a conference with a             <code class="keyword markupname xmlatt">@iso-8601-date</code> attribute on the element             <code class="keyword markupname xmlelement">&lt;conference-pub-date-published&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_pub_date_published"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-pub-date-published</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-pub-date-published</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the final publication date of a conference with a             
+                  <xmlatt class="+ topic/keyword markup-d/markupname xml-d/xmlatt ">iso-8601-date</xmlatt> attribute on the element             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-pub-date-published</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="Volume-meta/conference_volume_display_name.html" data-id="conference_volume_display_name" wh-toc-id="conference_volume_display_name-d66e1075">
+         <title>conference-volume-display-name</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the information to be displayed about the conference title within the             <code class="keyword markupname xmlelement">&lt;conference-volume-display-name&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_volume_display_name"></resourceid>
+            <navtitle class="- topic/navtitle ">conference-volume-display-name</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">conference-volume-display-name</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the information to be displayed about the conference title within the             
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-volume-display-name</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/conference.html" data-id="conference" wh-toc-id="conference-d66e1089">
+         <title>conference</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the conference metadata elements within a <code class="keyword markupname xmlelement">&lt;conference&gt;</code>         element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference"></resourceid>
+            <navtitle class="- topic/navtitle ">conference</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">conference</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the conference metadata elements within a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference</xmlelement>         element.
+            </shortdesc>
+         </topicmeta>
+         <topic href="Volume-meta/conference_date.html" data-id="conference_date" wh-toc-id="conference_date-d66e1103">
+            <title>conference-date</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the start and end dates of when the conference was held in the             <code class="keyword markupname xmlelement">&lt;conference-date&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_date"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-date</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-date</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the start and end dates of when the conference was held in the             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-date</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_name.html" data-id="conference_name" wh-toc-id="conference_name-d66e1117">
+            <title>conference-name</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the name of the conference within a <code class="keyword markupname xmlelement">&lt;conference-name&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_name"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-name</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-name</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the name of the conference within a 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-name</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_acronym.html" data-id="conference_acronym" wh-toc-id="conference_acronym-d66e1131">
+            <title>conference-acronym</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the acronym the conference is known by in the             <code class="keyword markupname xmlelement">&lt;conference-acronym&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_acronym"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-acronym</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-acronym</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the acronym the conference is known by in the             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-acronym</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_num.html" data-id="conference_num" wh-toc-id="conference_num-d66e1145">
+            <title>conference-num</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the number of the conference in the <code class="keyword markupname xmlelement">&lt;conferenece-num&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_num"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-num</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-num</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the number of the conference in the 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conferenece-num</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="Volume-meta/conference_location.html" data-id="conference_location" wh-toc-id="conference_location-d66e1159">
+            <title>conference-location</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the location the conference was held in a             <code class="keyword markupname xmlelement">&lt;conference-location&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_location"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-location</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-location</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the location the conference was held in a             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-location</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Volume-meta/institution.html" data-id="institution" wh-toc-id="institution-d66e1173">
+               <title>institution</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the institution details in the <code class="keyword markupname xmlelement">&lt;institution&gt;</code> element         within <code class="keyword markupname xmlelement">&lt;conference-location&gt;</code></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="institution"></resourceid>
+                  <navtitle class="- topic/navtitle ">institution</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">institution</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the institution details in the 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">institution</xmlelement> element         within 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-location</xmlelement>
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Volume-meta/city.html" data-id="city" wh-toc-id="city-d66e1189">
+               <title>city</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the city details in the <code class="keyword markupname xmlelement">&lt;city&gt;</code> element within             <code class="keyword markupname xmlelement">&lt;conference-location&gt;</code></p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="city"></resourceid>
+                  <navtitle class="- topic/navtitle ">city</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">city</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the city details in the 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">city</xmlelement> element within             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-location</xmlelement>
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="Volume-meta/country.html" data-id="country" wh-toc-id="country-d66e1205">
+               <title>country</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the country name in the <code class="keyword markupname xmlelement">&lt;country&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="country"></resourceid>
+                  <navtitle class="- topic/navtitle ">country</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">country</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the country name in the 
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">country</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+         <topic href="Volume-meta/conference_subject_group.html" data-id="conference_subject_group" wh-toc-id="conference_subject_group-d66e1219">
+            <title>conference-subject-group</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the <code class="keyword markupname xmlelement">&lt;conference-subject&gt;</code> elements within the             <code class="keyword markupname xmlelement">&lt;conference-subject-group&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_subject_group"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-subject-group</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-subject-group</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject</xmlelement> elements within the             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject-group</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Volume-meta/conference_subject.html" data-id="conference_subject" wh-toc-id="conference_subject-d66e1236">
+               <title>conference-subject</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the conference subject categories in a             <code class="keyword markupname xmlelement">&lt;conference-subject&gt;</code> element.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_subject"></resourceid>
+                  <navtitle class="- topic/navtitle ">conference-subject</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">conference-subject</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the conference subject categories in a             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject</xmlelement> element.
+                  </shortdesc>
+               </topicmeta>
+               <topic href="Volume-meta/subjest_list___issn_1742_6596.html" data-id="subjest_list___issn_1742_6596" wh-toc-id="subjest_list___issn_1742_6596-d66e1250">
+                  <title>Subject list - Journal of Physics: Conference Series</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">List of the permitted         <code class="keyword markupname xmlelement">&lt;conference-subject&gt;</code>values for         Journal of Physics: Conference Series (1742-6596)
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="subjest_list___issn_1742_6596"></resourceid>
+                     <navtitle class="- topic/navtitle ">Subject list - Journal of Physics: Conference Series</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Subject list - Journal of Physics: Conference Series</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">List of the permitted         
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject</xmlelement>values for         Journal of Physics: Conference Series (1742-6596)
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Volume-meta/subject_list___issn_1755_1315.html" data-id="subject_list___issn_1755_1315" wh-toc-id="subject_list___issn_1755_1315-d66e1264">
+                  <title>Subject list - IOP Conference Series: Earth and Environmental Science</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">List of the permitted <code class="keyword markupname xmlelement">&lt;conference-subject&gt;</code>values for IOP         Conference Series: Earth and Environmental Science (1755-1315).
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="subject_list___issn_1755_1315"></resourceid>
+                     <navtitle class="- topic/navtitle ">Subject list - IOP Conference Series: Earth and Environmental Science</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Subject list - IOP Conference Series: Earth and Environmental Science</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">List of the permitted 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject</xmlelement>values for IOP         Conference Series: Earth and Environmental Science (1755-1315).
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Volume-meta/subject_list___issn_1757_899x.html" data-id="subject_list___issn_1757_899x" wh-toc-id="subject_list___issn_1757_899x-d66e1278">
+                  <title>Subject list - IOP Conference Series: Materials Science and Engineering</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">List of the permitted <code class="keyword markupname xmlelement">&lt;conference-subject&gt;</code>values for the IOP         Conference Series: Materials Science and Engineering (1757-899X).
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="subject_list___issn_1757_899x"></resourceid>
+                     <navtitle class="- topic/navtitle ">Subject list - IOP Conference Series: Materials Science and Engineering</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">Subject list - IOP Conference Series: Materials Science and Engineering</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">List of the permitted 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-subject</xmlelement>values for the IOP         Conference Series: Materials Science and Engineering (1757-899X).
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+            </topic>
+         </topic>
+         <topic href="Volume-meta/conference_org_group.html" data-id="conference_org_group" wh-toc-id="conference_org_group-d66e1292">
+            <title>conference-org-group</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture the <code class="keyword markupname xmlelement">&lt;conference-org&gt;</code> elements within             <code class="keyword markupname xmlelement">&lt;conference-org-group&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_org_group"></resourceid>
+               <navtitle class="- topic/navtitle ">conference-org-group</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">conference-org-group</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture the 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-org</xmlelement> elements within             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-org-group</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+            <topic href="Volume-meta/conference_org.html" data-id="conference_org" wh-toc-id="conference_org-d66e1309">
+               <title>conference-org</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture a conference organisation details within             <code class="keyword markupname xmlelement">&lt;conference-org&gt;</code>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_org"></resourceid>
+                  <navtitle class="- topic/navtitle ">conference-org</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">conference-org</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture a conference organisation details within             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-org</xmlelement>.
+                  </shortdesc>
+               </topicmeta>
+               <topic href="Volume-meta/conference_org_name.html" data-id="conference_org_name" wh-toc-id="conference_org_name-d66e1323">
+                  <title>conference-org-name</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture an organisation name in the <code class="keyword markupname xmlelement">&lt;conference-org-name&gt;</code>         element.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_org_name"></resourceid>
+                     <navtitle class="- topic/navtitle ">conference-org-name</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">conference-org-name</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture an organisation name in the 
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-org-name</xmlelement>         element.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+               <topic href="Volume-meta/conference_org_acronym.html" data-id="conference_org_acronym" wh-toc-id="conference_org_acronym-d66e1337">
+                  <title>conference-org-acronym</title>
+                  <shortdesc>
+                     <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture each organisation's acronym in the             <code class="keyword markupname xmlelement">&lt;conference-org-acronym&gt;</code>.
+                     </p>
+                  </shortdesc>
+                  <topicmeta>
+                     <resourceid class="- topic/resourceid " oxy-source="topic" appid="conference_org_acronym"></resourceid>
+                     <navtitle class="- topic/navtitle ">conference-org-acronym</navtitle><?ditaot gentext?>
+                     <linktext class="- map/linktext ">conference-org-acronym</linktext><?ditaot genshortdesc?>
+                     <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture each organisation's acronym in the             
+                        <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">conference-org-acronym</xmlelement>.
+                     </shortdesc>
+                  </topicmeta>
+               </topic>
+            </topic>
+         </topic>
+         <topic href="Volume-meta/abstract.html" data-id="abstract" wh-toc-id="abstract-d66e1351">
+            <title>abstract</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture the descriptive text about the conference in the             <code class="keyword markupname xmlelement">&lt;abstract&gt;</code> element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="abstract"></resourceid>
+               <navtitle class="- topic/navtitle ">abstract</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">abstract</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture the descriptive text about the conference in the             
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">abstract</xmlelement> element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+   </topic>
+   <topic href="issue%20meta/issue_meta.html" data-id="Untitled" wh-toc-id="Untitled-d66e1366">
+      <title>Issue-Meta</title>
+      <shortdesc>
+         <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Documentation for the IOP Publishing issue-meta file format for providing issue level         metadata.</p>
+      </shortdesc>
+      <topicmeta>
+         <resourceid class="- topic/resourceid " oxy-source="topic" appid="Untitled"></resourceid>
+         <navtitle class="- topic/navtitle ">Issue-Meta</navtitle><?ditaot gentext?>
+         <linktext class="- map/linktext ">Issue-Meta</linktext><?ditaot genshortdesc?>
+         <shortdesc class="- map/shortdesc ">Documentation for the IOP Publishing issue-meta file format for providing issue level         metadata.</shortdesc>
+      </topicmeta>
+      <topic href="issue%20meta/root_element.html" data-id="root" wh-toc-id="root-d66e1377">
+         <title>Root Element</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">The root element for an issue-meta file is a <code class="keyword markupname xmlelement">&lt;issue-meta&gt;</code>         element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="root"></resourceid>
+            <navtitle class="- topic/navtitle ">Root Element</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Root Element</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">The root element for an issue-meta file is a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">issue-meta</xmlelement>         element.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/primary_issn_2.html" data-id="primary_issn" wh-toc-id="primary_issn-d66e1391">
+         <title>primary-issn</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the primary journal ISSN within         <code class="keyword markupname xmlelement">&lt;primary-issn&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="primary_issn"></resourceid>
+            <navtitle class="- topic/navtitle ">primary-issn</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">primary-issn</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the primary journal ISSN within         
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">primary-issn</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/volume_2.html" data-id="volume" wh-toc-id="volume-d66e1405">
+         <title>volume</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the volume number in the <code class="keyword markupname xmlelement">&lt;volume&gt;</code> element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="volume"></resourceid>
+            <navtitle class="- topic/navtitle ">volume</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">volume</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the volume number in the 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">volume</xmlelement> element.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="issue%20meta/issue.html" data-id="issue" wh-toc-id="issue-d66e1419">
+         <title>Issue</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the issue number in the <code class="keyword markupname xmlelement">&lt;issue&gt;</code> element
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="issue"></resourceid>
+            <navtitle class="- topic/navtitle ">Issue</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Issue</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the issue number in the 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">issue</xmlelement> element
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="issue%20meta/issue_status.html" data-id="issue_status" wh-toc-id="issue_status-d66e1433">
+         <title>Issue status</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">The current status of the issue is captured in         <code class="keyword markupname xmlelement">&lt;issue-status&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="issue_status"></resourceid>
+            <navtitle class="- topic/navtitle ">Issue status</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Issue status</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">The current status of the issue is captured in         
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">issue-status</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="Volume-meta/publication_date_2.html" data-id="publication_date" wh-toc-id="publication_date-d66e1447">
+         <title>publication-date</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the date the volume is published in         <code class="keyword markupname xmlelement">&lt;publication-date&gt;</code>.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="publication_date"></resourceid>
+            <navtitle class="- topic/navtitle ">publication-date</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">publication-date</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the date the volume is published in         
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">publication-date</xmlelement>.
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="issue%20meta/title_group.html" data-id="title_group" wh-toc-id="title_group-d66e1461">
+         <title>Title group</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the issue title within a <code class="keyword markupname xmlelement">&lt;title-group&gt;</code>         element.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="title_group"></resourceid>
+            <navtitle class="- topic/navtitle ">Title group</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Title group</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">Capture the issue title within a 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title-group</xmlelement>         element.
+            </shortdesc>
+         </topicmeta>
+         <topic href="issue%20meta/title.html" data-id="title" wh-toc-id="title-d66e1475">
+            <title>Title</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the full title of the issue in the <code class="keyword markupname xmlelement">&lt;title&gt;</code>         element.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="title"></resourceid>
+               <navtitle class="- topic/navtitle ">Title</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Title</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the full title of the issue in the 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">title</xmlelement>         element.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="issue%20meta/subtitle.html" data-id="subtitle" wh-toc-id="subtitle-d66e1489">
+            <title>Subtitle</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - Capture the issue subtitle in the <code class="keyword markupname xmlelement">&lt;subtitle&gt;</code>         element
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="subtitle"></resourceid>
+               <navtitle class="- topic/navtitle ">Subtitle</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Subtitle</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - Capture the issue subtitle in the 
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">subtitle</xmlelement>         element
+               </shortdesc>
+            </topicmeta>
+         </topic>
+      </topic>
+      <topic href="issue%20meta/contrib_group.html" data-id="contrib_group" wh-toc-id="contrib_group-d66e1503">
+         <title>Contrib group</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED - <code class="keyword markupname xmlelement">&lt;contrib-group&gt;</code> is a container element for             <code class="keyword markupname xmlelement">&lt;contrib&gt;</code> elements
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="contrib_group"></resourceid>
+            <navtitle class="- topic/navtitle ">Contrib group</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Contrib group</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED - 
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib-group</xmlelement> is a container element for             
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">contrib</xmlelement> elements
+            </shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="issue%20meta/contrib_notes.html" data-id="contrib_group" wh-toc-id="contrib_group-d66e1520">
+         <title>Contrib notes</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">NOT CURRENTLY USED</p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="contrib_group"></resourceid>
+            <navtitle class="- topic/navtitle ">Contrib notes</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Contrib notes</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">NOT CURRENTLY USED</shortdesc>
+         </topicmeta>
+      </topic>
+      <topic href="issue%20meta/toc.html" data-id="toc" wh-toc-id="toc-d66e1531">
+         <title>Toc</title>
+         <shortdesc>
+            <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc"><code class="keyword markupname xmlelement">&lt;toc&gt;</code> is a container element to capture the table of contents         metadata.
+            </p>
+         </shortdesc>
+         <topicmeta>
+            <resourceid class="- topic/resourceid " oxy-source="topic" appid="toc"></resourceid>
+            <navtitle class="- topic/navtitle ">Toc</navtitle><?ditaot gentext?>
+            <linktext class="- map/linktext ">Toc</linktext><?ditaot genshortdesc?>
+            <shortdesc class="- map/shortdesc ">
+               <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">toc</xmlelement> is a container element to capture the table of contents         metadata.
+            </shortdesc>
+         </topicmeta>
+         <topic href="issue%20meta/toc_title.html" data-id="toc_title" wh-toc-id="toc_title-d66e1544">
+            <title>Toc title</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the main title of the table of contents in         <code class="keyword markupname xmlelement">&lt;toc-title&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="toc_title"></resourceid>
+               <navtitle class="- topic/navtitle ">Toc title</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Toc title</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the main title of the table of contents in         
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">toc-title</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+         </topic>
+         <topic href="issue%20meta/toc_section.html" data-id="toc_section" wh-toc-id="toc_section-d66e1558">
+            <title>Toc section</title>
+            <shortdesc>
+               <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the elements of each toc section in         <code class="keyword markupname xmlelement">&lt;toc-section&gt;</code>.
+               </p>
+            </shortdesc>
+            <topicmeta>
+               <resourceid class="- topic/resourceid " oxy-source="topic" appid="toc_section"></resourceid>
+               <navtitle class="- topic/navtitle ">Toc section</navtitle><?ditaot gentext?>
+               <linktext class="- map/linktext ">Toc section</linktext><?ditaot genshortdesc?>
+               <shortdesc class="- map/shortdesc ">Capture the elements of each toc section in         
+                  <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">toc-section</xmlelement>.
+               </shortdesc>
+            </topicmeta>
+            <topic href="issue%20meta/section_title.html" data-id="section_title" wh-toc-id="section_title-d66e1572">
+               <title>Section title</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture the title of each section of the table of content in             <code class="keyword markupname xmlelement">&lt;section-title&gt;</code>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="section_title"></resourceid>
+                  <navtitle class="- topic/navtitle ">Section title</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Section title</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture the title of each section of the table of content in             
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">section-title</xmlelement>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+            <topic href="issue%20meta/toc_entry.html" data-id="toc_entry" wh-toc-id="toc_entry-d66e1586">
+               <title>Toc entry</title>
+               <shortdesc>
+                  <p xmlns="http://www.w3.org/1999/xhtml" class="shortdesc">Capture each entry in the table of contents in         <code class="keyword markupname xmlelement">&lt;toc-entry&gt;</code>.
+                  </p>
+               </shortdesc>
+               <topicmeta>
+                  <resourceid class="- topic/resourceid " oxy-source="topic" appid="toc_entry"></resourceid>
+                  <navtitle class="- topic/navtitle ">Toc entry</navtitle><?ditaot gentext?>
+                  <linktext class="- map/linktext ">Toc entry</linktext><?ditaot genshortdesc?>
+                  <shortdesc class="- map/shortdesc ">Capture each entry in the table of contents in         
+                     <xmlelement class="+ topic/keyword markup-d/markupname xml-d/xmlelement ">toc-entry</xmlelement>.
+                  </shortdesc>
+               </topicmeta>
+            </topic>
+         </topic>
+      </topic>
+   </topic>
+</toc>

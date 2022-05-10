@@ -1,0 +1,46 @@
+.XmlFurniture, * [outputclass ~= XmlFurniture] {
+    color: #000096;
+}
+.ElementName, * [outputclass ~= ElementName] {
+    color: #000096;
+}
+.AttributeName, * [outputclass ~= AttributeName] {
+    color: #F5844C;
+}
+.AttributeValue, * [outputclass ~= AttributeValue] {
+    color: #993300;
+}
+.Comment, * [outputclass ~= Comment] {
+    color: #006400;
+}
+.PI, * [outputclass ~= PI] {
+    color: #8B26C9;
+}
+.entity, * [outputclass ~= entity]{
+    color: #969600;
+}
+.equals, * [outputclass ~= equals]{
+    color: #F5844C;
+}
+.attributeQuotes, * [outputclass ~= attributeQuotes] {
+    color: #993300;
+}
+.emphasis, .italic,
+*[outputclass ~= emphasis],
+*[outputclass ~= italic] {
+    font-style: italic
+}
+.bold, .strong,
+*[outputclass ~= bold],
+*[outputclass ~= strong] {
+    font-weight: bold
+}
+.underline,
+*[outputclass ~= underline] {
+    text-decoration: underline
+}
+.strike, .line-through,
+*[outputclass~= strike],
+*[outputclass~= line-through] {
+    text-decoration: line-through;
+}
