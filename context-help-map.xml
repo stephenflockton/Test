@@ -1,140 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
-   <appContext helpID="envelope_metadata" path="Metadata%20Envelope/envelope_metadata.html"/>
-   <appContext helpID="asset" path="Metadata%20Envelope/asset.html"/>
-   <appContext helpID="metadata" path="Metadata%20Envelope/metadata.html"/>
-   <appContext helpID="common_meta" path="Metadata%20Envelope/common_meta.html"/>
-   <appContext helpID="content_type" path="Metadata%20Envelope/content_type.html"/>
-   <appContext helpID="asset_id" path="Metadata%20Envelope/asset_id.html"/>
-   <appContext helpID="revision" path="Metadata%20Envelope/revision.html"/>
-   <appContext helpID="revision_id" path="Metadata%20Envelope/revision_id.html"/>
-   <appContext helpID="publication_meta" path="Metadata%20Envelope/publication_meta.html"/>
-   <appContext helpID="jats" path="NLM3/jats.html"/>
-   <appContext helpID="root_element" path="NLM3/root_element.html"/>
-   <appContext helpID="article_type" path="NLM3/article_type.html"/>
-   <appContext helpID="front" path="NLM3/front.html"/>
-   <appContext helpID="journal_meta" path="NLM3/journal_meta.html"/>
-   <appContext helpID="journal_id" path="NLM3/journal_id.html"/>
-   <appContext helpID="journal_title_group" path="NLM3/journal_title_group.html"/>
-   <appContext helpID="journal_title" path="NLM3/journal_title.html"/>
-   <appContext helpID="abbrev_journal_title_" path="NLM3/abbrev_journal_title_.html"/>
-   <appContext helpID="issn" path="NLM3/issn.html"/>
-   <appContext helpID="publisher" path="NLM3/publisher.html"/>
-   <appContext helpID="publishing_partner" path="NLM3/publishing_partner.html"/>
-   <appContext helpID="article_meta" path="NLM3/article_meta.html"/>
-   <appContext helpID="article_identifiers" path="NLM3/article_identifiers.html"/>
-   <appContext helpID="article_id_doi" path="NLM3/article_id_doi.html"/>
-   <appContext helpID="article_id_publisher" path="NLM3/article_id_publisher.html"/>
-   <appContext helpID="article_id_manuscript" path="NLM3/article_id_manuscript.html"/>
-   <appContext helpID="article_id_other" path="NLM3/article_id_other.html"/>
-   <appContext helpID="article_categories" path="NLM3/article_categories.html"/>
-   <appContext helpID="article_title" path="NLM3/article_title.html"/>
-   <appContext helpID="ascii_title" path="NLM3/ascii_title.html"/>
-   <appContext helpID="authors" path="NLM3/authors.html"/>
-   <appContext helpID="authors_0" path="NLM3/authors_regular.html"/>
-   <appContext helpID="orcid" path="NLM3/orcid.html"/>
-   <appContext helpID="authors_0" path="NLM3/authors_collab.html"/>
-   <appContext helpID="author_affs" path="NLM3/author_affs.html"/>
-   <appContext helpID="emails" path="NLM3/emails.html"/>
-   <appContext helpID="short_author_list" path="NLM3/short_author_list.html"/>
-   <appContext helpID="author_notes" path="NLM3/author_notes.html"/>
-   <appContext helpID="publication_dates" path="NLM3/publication_dates.html"/>
-   <appContext helpID="volume" path="NLM3/volume.html"/>
-   <appContext helpID="issue" path="NLM3/issue.html"/>
-   <appContext helpID="article_page_number" path="NLM3/article_number.html"/>
-   <appContext helpID="page_numbers" path="NLM3/page_numbers.html"/>
-   <appContext helpID="supplementary_material" path="NLM3/supplementary_material.html"/>
-   <appContext helpID="history" path="NLM3/history.html"/>
-   <appContext helpID="received_date" path="NLM3/received_date.html"/>
-   <appContext helpID="received_date" path="NLM3/revised_date.html"/>
-   <appContext helpID="received_date" path="NLM3/accepted_date.html"/>
-   <appContext helpID="received_date" path="NLM3/oa-requested_date.html"/>
-   <appContext helpID="copyright" path="NLM3/copyright.html"/>
-   <appContext helpID="license" path="NLM3/license.html"/>
-   <appContext helpID="abstract" path="NLM3/abstract.html"/>
-   <appContext helpID="video_abstract" path="NLM3/video_abstract.html"/>
-   <appContext helpID="keyword_group" path="NLM3/keyword_group.html"/>
-   <appContext helpID="kwd_group_type" path="NLM3/kwd_group_type.html"/>
-   <appContext helpID="funding_group" path="NLM3/funding_group.html"/>
-   <appContext helpID="counts" path="NLM3/counts.html"/>
-   <appContext helpID="custom_meta_group" path="NLM3/custom_meta_group.html"/>
-   <appContext helpID="body" path="NLM3/body.html"/>
-   <appContext helpID="section" path="NLM3/section.html"/>
-   <appContext helpID="figures" path="NLM3/figures.html"/>
-   <appContext helpID="figure_sets" path="NLM3/figure_sets.html"/>
-   <appContext helpID="videos" path="NLM3/videos.html"/>
-   <appContext helpID="tables" path="NLM3/tables.html"/>
-   <appContext helpID="list" path="NLM3/list.html"/>
-   <appContext helpID="formula" path="NLM3/formula.html"/>
-   <appContext helpID="disp_formula" path="NLM3/disp_formula.html"/>
-   <appContext helpID="inline_formula" path="NLM3/inline_formula.html"/>
-   <appContext helpID="cross_references" path="NLM3/cross_references.html"/>
-   <appContext helpID="reference_type" path="NLM3/reference_type.html"/>
-   <appContext helpID="footnotes" path="NLM3/footnotes.html"/>
-   <appContext helpID="back" path="NLM3/back.html"/>
-   <appContext helpID="acknowledgements" path="NLM3/acknowledgements.html"/>
-   <appContext helpID="appendicies" path="NLM3/appendicies.html"/>
-   <appContext helpID="bio" path="NLM3/bio.html"/>
-   <appContext helpID="ref_list" path="NLM3/ref_list.html"/>
-   <appContext helpID="ref" path="NLM3/ref.html"/>
-   <appContext helpID="element_citation" path="NLM3/element_citation.html"/>
-   <appContext helpID="publication_type" path="NLM3/publication_type.html"/>
-   <appContext helpID="conf_ref" path="NLM3/conf_ref.html"/>
-   <appContext helpID="volume_meta_0" path="Volume-meta/volume_meta.html"/>
-   <appContext helpID="root_element" path="Volume-meta/root_element.html"/>
-   <appContext helpID="primary_issn" path="Volume-meta/primary_issn.html"/>
-   <appContext helpID="primary_issn_list" path="Volume-meta/primary_issn_list.html"/>
-   <appContext helpID="volume" path="Volume-meta/volume.html"/>
-   <appContext helpID="publication_date" path="Volume-meta/publication_date.html"/>
-   <appContext helpID="conference_volume_version_0"
-               path="Volume-meta/conference_volume_version_0.html"/>
-   <appContext helpID="" path="Volume-meta/conference_volume_pub_date.html"/>
-   <appContext helpID="conference_pub_date_expected"
-               path="Volume-meta/conference_pub_date_expected.html"/>
-   <appContext helpID="conference_pub_date_accepted"
-               path="Volume-meta/conference_pub_date_accepted.html"/>
-   <appContext helpID="conference_pub_date_published"
-               path="Volume-meta/conference_pub_date_published.html"/>
-   <appContext helpID="conference_volume_display_name"
-               path="Volume-meta/conference_volume_display_name.html"/>
-   <appContext helpID="conference" path="Volume-meta/conference.html"/>
-   <appContext helpID="conference_date" path="Volume-meta/conference_date.html"/>
-   <appContext helpID="conference_name" path="Volume-meta/conference_name.html"/>
-   <appContext helpID="conference_acronym" path="Volume-meta/conference_acronym.html"/>
-   <appContext helpID="conference_num" path="Volume-meta/conference_num.html"/>
-   <appContext helpID="conference_location" path="Volume-meta/conference_location.html"/>
-   <appContext helpID="institution" path="Volume-meta/institution.html"/>
-   <appContext helpID="city" path="Volume-meta/city.html"/>
-   <appContext helpID="country" path="Volume-meta/country.html"/>
-   <appContext helpID="conference_subject_group"
-               path="Volume-meta/conference_subject_group.html"/>
-   <appContext helpID="conference_subject" path="Volume-meta/conference_subject.html"/>
-   <appContext helpID="subjest_list___issn_1742_6596"
-               path="Volume-meta/subjest_list___issn_1742_6596.html"/>
-   <appContext helpID="subject_list___issn_1755_1315"
-               path="Volume-meta/subject_list___issn_1755_1315.html"/>
-   <appContext helpID="subject_list___issn_1757_899x"
-               path="Volume-meta/subject_list___issn_1757_899x.html"/>
-   <appContext helpID="conference_org_group" path="Volume-meta/conference_org_group.html"/>
-   <appContext helpID="conference_org" path="Volume-meta/conference_org.html"/>
-   <appContext helpID="conference_org_name" path="Volume-meta/conference_org_name.html"/>
-   <appContext helpID="conference_org_acronym" path="Volume-meta/conference_org_acronym.html"/>
-   <appContext helpID="abstract" path="Volume-meta/abstract.html"/>
-   <appContext helpID="Untitled" path="issue%20meta/issue_meta.html"/>
-   <appContext helpID="root" path="issue%20meta/root_element.html"/>
-   <appContext helpID="primary_issn" path="Volume-meta/primary_issn.html"/>
-   <appContext helpID="volume" path="Volume-meta/volume.html"/>
-   <appContext helpID="issue" path="issue%20meta/issue.html"/>
-   <appContext helpID="issue_status" path="issue%20meta/issue_status.html"/>
-   <appContext helpID="publication_date" path="Volume-meta/publication_date.html"/>
-   <appContext helpID="title_group" path="issue%20meta/title_group.html"/>
-   <appContext helpID="title" path="issue%20meta/title.html"/>
-   <appContext helpID="subtitle" path="issue%20meta/subtitle.html"/>
-   <appContext helpID="contrib_group" path="issue%20meta/contrib_group.html"/>
-   <appContext helpID="contrib_group" path="issue%20meta/contrib_notes.html"/>
-   <appContext helpID="toc" path="issue%20meta/toc.html"/>
-   <appContext helpID="toc_title" path="issue%20meta/toc_title.html"/>
-   <appContext helpID="toc_section" path="issue%20meta/toc_section.html"/>
-   <appContext helpID="section_title" path="issue%20meta/section_title.html"/>
-   <appContext helpID="toc_entry" path="issue%20meta/toc_entry.html"/>
+   <appContext helpID="books" path="Books/books.html"/>
+   <appContext helpID="root_element" path="Books/root_element.html"/>
+   <appContext helpID="book_meta" path="Books/book_meta.html"/>
+   <appContext helpID="book_id" path="Books/book_id.html"/>
+   <appContext helpID="book_title" path="Books/book_title.html"/>
+   <appContext helpID="subject_group" path="Books/subject_group.html"/>
+   <appContext helpID="contributors" path="Books/contributors.html"/>
+   <appContext helpID="authors_and_editors" path="Books/authors_and_editors.html"/>
+   <appContext helpID="collaborations" path="Books/collaborations.html"/>
+   <appContext helpID="contrib_crossreferences" path="Books/contrib_crossreferences.html"/>
+   <appContext helpID="affiliations" path="Books/affiliations.html"/>
+   <appContext helpID="biographies" path="Books/biographies.html"/>
+   <appContext helpID="publication_date" path="Books/publication_date.html"/>
+   <appContext helpID="issn" path="Books/issn.html"/>
+   <appContext helpID="isbn" path="Books/isbn.html"/>
+   <appContext helpID="publisher" path="Books/publisher.html"/>
+   <appContext helpID="cover_files" path="Books/cover_files.html"/>
+   <appContext helpID="supplementary_data" path="Books/supplementary_data.html"/>
+   <appContext helpID="copyright_and_licenses" path="Books/copyright_and_licenses.html"/>
+   <appContext helpID="copyright" path="Books/copyright.html"/>
+   <appContext helpID="licenses" path="Books/licenses.html"/>
+   <appContext helpID="self_uris" path="Books/self_uris.html"/>
+   <appContext helpID="abstract" path="Books/abstract.html"/>
+   <appContext helpID="counts" path="Books/counts.html"/>
+   <appContext helpID="custom_meta" path="Books/custom_meta.html"/>
+   <appContext helpID="version" path="Books/version.html"/>
+   <appContext helpID="authorisation_year" path="Books/authorization_year.html"/>
+   <appContext helpID="notes" path="Books/notes.html"/>
+   <appContext helpID="readership" path="Books/readership.html"/>
+   <appContext helpID="publishing_information" path="Books/publishing_information.html"/>
+   <appContext helpID="british_library_record" path="Books/british_library_record.html"/>
+   <appContext helpID="book_collection" path="Books/book_collection.html"/>
+   <appContext helpID="front_matter" path="Books/front_matter.html"/>
+   <appContext helpID="front_matter_part" path="Books/front_matter_part.html"/>
+   <appContext helpID="front_matter_title" path="Books/front_matter_title.html"/>
+   <appContext helpID="front_matter_contributors" path="Books/front_matter_contributors.html"/>
+   <appContext helpID="authors_and_editors" path="Books/authors_and_editors.html"/>
+   <appContext helpID="collaborations" path="Books/collaborations.html"/>
+   <appContext helpID="contrib_crossreferences" path="Books/contrib_crossreferences.html"/>
+   <appContext helpID="affiliations" path="Books/affiliations.html"/>
+   <appContext helpID="page_numbers" path="Books/page_numbers.html"/>
+   <appContext helpID="dedication" path="Books/dedication.html"/>
+   <appContext helpID="preface" path="Books/preface.html"/>
+   <appContext helpID="acknowledgements" path="Books/acknowledgements.html"/>
+   <appContext helpID="full_biographies" path="Books/full_biographies.html"/>
+   <appContext helpID="glossary" path="Books/glossary.html"/>
+   <appContext helpID="other_front_matter" path="Books/other_front_matter.html"/>
+   <appContext helpID="chapters" path="Books/chapters.html"/>
+   <appContext helpID="book_part_meta" path="Books/book_part_meta.html"/>
+   <appContext helpID="book_part_id" path="Books/book_part_id.html"/>
+   <appContext helpID="chapter_title" path="Books/chapter_title.html"/>
+   <appContext helpID="chapter_contributors" path="Books/chapter_contributors.html"/>
+   <appContext helpID="chapter_author_and_editors"
+               path="Books/chapter_author_and_editors.html"/>
+   <appContext helpID="collaborations" path="Books/collaborations.html"/>
+   <appContext helpID="contrib_crossreferences" path="Books/contrib_crossreferences.html"/>
+   <appContext helpID="affiliations" path="Books/affiliations.html"/>
+   <appContext helpID="page_numbers" path="Books/page_numbers.html"/>
+   <appContext helpID="chapter_copyright_and_licenses"
+               path="Books/chapter_copyright_and_licenses.html"/>
+   <appContext helpID="copyright" path="Books/copyright.html"/>
+   <appContext helpID="licenses" path="Books/licenses.html"/>
+   <appContext helpID="chapter_self_uris" path="Books/chapter_self_uris.html"/>
+   <appContext helpID="abstract" path="Books/abstract.html"/>
+   <appContext helpID="chapter_body" path="Books/chapter_body.html"/>
+   <appContext helpID="sections" path="Books/sections.html"/>
+   <appContext helpID="paragraphs" path="Books/paragraphs.html"/>
+   <appContext helpID="figures" path="Books/figures.html"/>
+   <appContext helpID="tables" path="Books/tables.html"/>
+   <appContext helpID="xrefs" path="Books/xrefs.html"/>
+   <appContext helpID="lists" path="Books/lists.html"/>
+   <appContext helpID="inline_formula" path="Books/inline_formula.html"/>
+   <appContext helpID="display_formula" path="Books/display_formula.html"/>
+   <appContext helpID="boxed_text" path="Books/boxed_text.html"/>
+   <appContext helpID="preformated_text" path="Books/preformated_text.html"/>
+   <appContext helpID="chapter_back" path="Books/chapter_back.html"/>
+   <appContext helpID="reference_list" path="Books/reference_list.html"/>
+   <appContext helpID="reference" path="Books/reference.html"/>
+   <appContext helpID="appendix" path="Books/appendix.html"/>
+   <appContext helpID="back_matter" path="Books/back_matter.html"/>
+   <appContext helpID="version_and_change_log" path="Books/version_and_change_log.html"/>
 </map>
