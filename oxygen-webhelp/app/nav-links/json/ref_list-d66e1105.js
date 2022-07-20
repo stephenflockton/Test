@@ -1,0 +1,1 @@
+define({"topics" : [{"title":"References","shortdesc":"\n                  <p class=\"shortdesc\">Capture each reference in a <code class=\"keyword markupname xmlelement\">&lt;ref&gt;</code> element.\n                  </p>\n               ","href":"NLM3\/ref.html","attributes": {"data-id":"ref",},"menu": {"hasChildren":false,},"tocID":"ref-d66e1122","next":"ref-d66e1122",}]});
